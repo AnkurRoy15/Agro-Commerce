@@ -19,7 +19,7 @@ const CartScreen = () => {
   
     setIsLoading(true);
     try {
-      const response = await fetch('http://192.168.29.94:5000/api/checkout', {
+      const response = await fetch('http://#:5000/api/checkout', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
