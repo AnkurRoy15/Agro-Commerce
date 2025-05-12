@@ -14,7 +14,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import { useCallback } from 'react';
 
 
-const API_BASE_URL = 'http://192.168.29.94:5000/api';
+const API_BASE_URL = 'http://#:5000/api';
 
 interface Product {
   _id: string;
