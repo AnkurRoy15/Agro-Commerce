@@ -20,7 +20,7 @@ const HomeScreen = ({ navigation }) => {
           return;
         }
 
-        const response = await axios.get('http://192.168.29.94:5000/api/banners', {
+        const response = await axios.get('http://#:5000/api/banners', {
           headers: {
             'Authorization': `Bearer ${token}`,
             'Accept': 'application/json'
