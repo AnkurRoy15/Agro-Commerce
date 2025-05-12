@@ -65,7 +65,7 @@ const CartScreen = () => {
   const renderItem = ({ item }: any) => (
     <View style={styles.itemContainer}>
       <Image
-        source={{ uri: `https://50bc-2405-201-c011-a820-4842-1f19-9650-4492.ngrok-free.app/get-image?image_id=${item.image_id}` }}
+        source={{ uri: `#image_id=${item.image_id}` }}
         style={styles.itemImage}
       />
       <View style={styles.itemDetails}>
