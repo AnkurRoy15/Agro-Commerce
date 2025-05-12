@@ -14,7 +14,7 @@ const ImageSlider = () => {
 
   const fetchSliderImages = async () => {
     try {
-      const response = await axios.get('http://192.168.29.94:5000/api/slider-images');
+      const response = await axios.get('http://#:5000/api/slider-images');
       setImages(response.data.data);
     } catch (error) {
       console.error('Error fetching slider images:', error);
